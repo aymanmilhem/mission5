@@ -1,13 +1,17 @@
-import FooterMain from './Components/FooterMain';
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import InsuranceComparePage from './pages/InsuranceComparePage';
 
 function App() {
   return (
-    <div className="App">
-     
-      <FooterMain/>
-     
-    </div>
+    <>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/insurance-compare" element={<InsuranceComparePage />} />
+        </Routes>
+        </BrowserRouter>
+
+    </>
   );
 }
 
