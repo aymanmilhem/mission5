@@ -1,7 +1,7 @@
 import React from 'react'
-import BlueNavBar from './BlueNavBar';
-import LogoBar from './LogoBar';
-import TopNavBar from './TopNavBar';
+import BlueNavBar from './BlueNavBar'
+import LogoBar from './LogoBar'
+import TopNavBar from './TopNavBar'
 
 const HeaderBar = () => {
   return (
