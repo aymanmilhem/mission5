@@ -1,6 +1,6 @@
 import React from 'react'
-import FooterMain from '../Components/FooterMain'
-import HeaderBar from '../Components/HeaderBar/HeaderBar'
+import FooterMain from '../components/FooterMain'
+import HeaderBar from '../components/HeaderBar/HeaderBar'
 import HomePageImage from './img/HomePageImage.jpg'
 
 
