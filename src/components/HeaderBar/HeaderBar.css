@@ -105,7 +105,27 @@
 .blue-nav-drop-down-text {
   color: black;
   text-decoration: none;
-  background-color: #dbeafe;
+}
+
+.blue-nav-drop-down-container {
+  margin-top: 1.8rem;
+}
+
+.blue-nav-drop-down-quote-container {
+  text-decoration: none;
+}
+
+.blue-nav-drop-down-quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: #1f398a;
+  font-weight: 600;
+  font-size: 20px;
+  height: 3rem;
+  border-radius: 2rem;
 }
 
 .dropdown-icon {

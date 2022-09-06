@@ -5,7 +5,7 @@ function FooterMedia() {
     <div>
          <div className='footer-Nav-sec'>
         <div className='turners-2021'>
-            <h6>© 2021 Turners</h6>
+            <h6>© 2022 Turners</h6>
         </div>
         <div className='footer-nav-details'>
         <p><a href='#!' className='footer-nav-btn1'>Branch Details</a></p> 
