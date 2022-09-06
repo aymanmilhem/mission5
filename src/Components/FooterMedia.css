@@ -1,14 +1,10 @@
 .footer-Nav-sec{
     display: flex;   
-    flex-direction: row;
-    position: absolute;
     height: 72px;
     left: 0%;
     right: 0%;
     bottom: 0px;
-    width: 1728px;
-    left: 0px;
-    top: 365px;
+    width: 100%;
     border-radius: 0px;
     background: #363636;
 }
