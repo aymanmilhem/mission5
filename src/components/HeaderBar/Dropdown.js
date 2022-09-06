@@ -16,9 +16,9 @@ const Dropdown = () => {
                                 Car Insurance
                                 <img src={dropdownIcon} alt="dropdown icon" className="dropdown-icon"></img>
                             </div>
-                            <Menu {...bindMenu(popupState)}>
-                                <Link className="blue-nav-drop-down-text" to="/cars/insurance-quotes">
-                                    <MenuItem onClick={popupState.close}>Get a quote</MenuItem>
+                            <Menu className="blue-nav-drop-down-container" {...bindMenu(popupState)}>
+                                <Link className="blue-nav-drop-down-quote-container" to="/cars/insurance-quotes">
+                                    <div className="blue-nav-drop-down-quote" onClick={popupState.close}>GET QUOTE</div>
                                 </Link>
 
                                 <Link className="blue-nav-drop-down-text" to="/cars/compare-policies">

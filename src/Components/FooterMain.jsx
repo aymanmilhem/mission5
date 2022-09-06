@@ -4,7 +4,9 @@ import FooterMedia from './FooterMedia';
 
 function FooterMain() {
   return (
-<div className='footer-main'>
+<div className='footer-main-container'>
+
+  <div className='footer-main'>
 
     <div className='footer-cars-sec1'>
       <h5 className='footer-cars'>CARS</h5>
@@ -58,6 +60,8 @@ function FooterMain() {
        <p><a href='#!' className='footer-AbtUs-btn'>The Good Oil Blog</a></p>
        <p><a href='#!' className='footer-AbtUs-btn'>Email Alerts</a></p>
        <p><a href='#!' className='footer-AbtUs-btn'>Contact Us</a></p>
+    </div>
+
     </div>
 
     <div>
