@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderBar from '../Components/HeaderBar/HeaderBar'
+import HeaderBar from '../components/HeaderBar/HeaderBar'
 
 
 const InsuranceComparePage = () => {
