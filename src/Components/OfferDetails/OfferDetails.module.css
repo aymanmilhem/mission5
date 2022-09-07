@@ -1,0 +1,32 @@
+.offerDetails {
+    border: 2px black solid;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center; */
+}
+
+.comprehensiveDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comprehensiveDetails__top {
+    display: flex;
+    flex-direction: row;
+    max-width: 70%;
+    /* align-content: space-around; */
+    /* align-items:center; */
+    justify-content: space-around;
+    /* border: 2px solid brown; */
+}
+
+.comprehensiveDetailsText{
+    display: block;
+    /* border: 1px solid black; */
+    width: 40%;
+}
+
+.details h1,p {
+    text-align: center;
+}
